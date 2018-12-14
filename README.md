@@ -1,2 +1,2 @@
-# cre-calculator
-Calculator project for CRE
+# Conversion Rate Calculator
+
