@@ -3,9 +3,9 @@ export const calcPercent = (denominator, numerator) => {
 	return isNaN(percent) ? 0 : percent;
 }
 
-export const calcPercentDiff = (denominator, numerator) => {
-	// let denominator = valueA > valueB ? valueA : valueB;
-	// let numerator = valueA < valueB ? valueA : valueB;
+export const calcPercentDiff = (valueA, valueB) => {
+	let denominator = valueA > valueB ? valueA : valueB;
+	let numerator = valueA < valueB ? valueA : valueB;
 
 	const percent = Math.abs( ((denominator - numerator) / numerator) * 100);
 
